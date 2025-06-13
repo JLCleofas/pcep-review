@@ -1,0 +1,130 @@
+===============================================
+✅ Week 1 (5-Day Plan) – PCEP Prep Checklist
+===============================================
+
+📍 Goal: Prepare for PCEP™ certification by mastering Python basics
+
+🗓️ Format:
+- Mon–Fri = Active Learning (2.5–3 hrs/day)
+- Sat–Sun = Passive Learning (audio/video while doing chores)
+
+📁 Folder Suggestion: pcep-prep/week1/
+
+--------------------------------------------------
+🔧 MONDAY – Setup, Syntax & Variables
+--------------------------------------------------
+Concepts:
+- Python install and setup
+- print(), comments
+- Variables, types (int, float, str, bool)
+- input(), casting, f-strings
+
+Tasks:
+[ ] Install Python 3.10+ and VS Code
+[ ] Verify Python in PATH (run: python --version)
+[ ] Write hello_world.py
+[ ] Write name_age.py to calculate birth year
+
+Resources:
+[ ] Programiz – First Program: https://www.programiz.com/python-programming/first-program
+[ ] Programiz – Variables: https://www.programiz.com/python-programming/variables-datatypes
+[ ] Bro Code – Python in 1 Hour: https://youtu.be/8DvywoWv6fI?t=111
+
+--------------------------------------------------
+🔧 TUESDAY – Operators & Strings
+--------------------------------------------------
+Concepts:
+- Arithmetic, comparison, logical, assignment operators
+- String methods (.upper(), .lower(), .replace())
+- String slicing, f-strings
+
+Tasks:
+[ ] CLI calculator using input() and if-elif
+[ ] Truth table demo
+[ ] String reverser and formatter
+
+Resources:
+[ ] Programiz – Operators: https://www.programiz.com/python-programming/operators
+[ ] W3Schools – Strings: https://www.w3schools.com/python/python_strings.asp
+
+--------------------------------------------------
+🔧 WEDNESDAY – Lists, Tuples, Dictionaries
+--------------------------------------------------
+Concepts:
+- Lists: create, modify, loop
+- Tuples: immutability
+- Dictionaries: key-value pairs, iteration
+
+Tasks:
+[ ] To-do list manager with append() and remove()
+[ ] Store 3 users in a dictionary and loop to print
+[ ] Bonus: Create a shopping cart using lists + dictionaries
+
+Resources:
+[ ] Programiz – Lists: https://www.programiz.com/python-programming/list
+[ ] Programiz – Tuples: https://www.programiz.com/python-programming/tuple
+[ ] Programiz – Dictionaries: https://www.programiz.com/python-programming/dictionary
+
+--------------------------------------------------
+🔧 THURSDAY – Project: BMI Calculator
+--------------------------------------------------
+Project: bmi_calc.py
+
+Requirements:
+[ ] Ask for user input (height in cm, weight in kg)
+[ ] Compute BMI = weight / (height/100)^2
+[ ] Output BMI and category:
+    <18.5: Underweight
+    18.5–24.9: Normal
+    25–29.9: Overweight
+    30+: Obese
+
+Stretch Goals:
+[ ] Add input validation
+[ ] Refactor with functions
+
+--------------------------------------------------
+🔧 FRIDAY – Practice Test & Refactor
+--------------------------------------------------
+Tasks:
+[ ] Take PCEP practice test at Edube:
+    https://edube.org/study/pcep
+[ ] Solve 3 beginner problems on:
+    https://exercism.io/tracks/python
+[ ] Refactor one previous script for readability
+[ ] Write summary of learnings (notes_week1.md)
+
+--------------------------------------------------
+🎧 SATURDAY – Passive Review (Video)
+--------------------------------------------------
+While doing chores, watch or listen to:
+
+[ ] freeCodeCamp Full Python Course (1:00:00+):
+    https://youtu.be/rfscVS0vtbw?t=3600
+[ ] Programming with Mosh – Python for Beginners:
+    https://youtu.be/kqtD5dpn9C8
+
+Optional:
+[ ] Reflect on concepts you struggled with this week
+
+--------------------------------------------------
+🎧 SUNDAY – Passive Review (Podcasts / Articles)
+--------------------------------------------------
+Listen:
+[ ] Talk Python to Me: https://talkpython.fm/episodes/all
+[ ] Python Bytes Podcast: https://pythonbytes.fm/
+
+Optional Reading:
+[ ] 1–2 RealPython articles: https://realpython.com/
+
+--------------------------------------------------
+📁 Recommended File Structure
+--------------------------------------------------
+pcep-prep/
+└── week1/
+    ├── day1_hello.py
+    ├── day2_calculator.py
+    ├── day3_collections.py
+    ├── bmi_calc.py
+    ├── notes_week1.md
+    └── week1_checklist.txt
