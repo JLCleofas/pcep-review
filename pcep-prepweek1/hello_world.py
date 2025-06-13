@@ -11,6 +11,10 @@ print(name)
 '''Multiline comment example
 pwede pala 'to...'''
 
+
+#Astig
 full_name = "Juan Cruz"
 
 print(f"Hello {full_name}")
+
+print("Git CLI Test")

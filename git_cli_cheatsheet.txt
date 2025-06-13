@@ -1,0 +1,48 @@
+==============================
+Git CLI Cheatsheet for Projects
+==============================
+
+✅ Initial Setup
+---------------
+1. Open your project folder in VS Code
+2. Open the terminal:
+   - VS Code: View > Terminal
+   - Shortcut: Ctrl + ` (backtick)
+
+🔍 Check Current Git Status
+---------------------------
+git status
+
+📝 Make Some Code Changes
+-------------------------
+# Example in hello.py
+print("Git CLI Test")
+
+📦 Stage the Changes
+--------------------
+git add .
+
+🗒️ Commit the Changes
+----------------------
+git commit -m "Added Git CLI test print"
+
+📤 Push to GitHub
+-----------------
+git push
+
+✅ Done! Your commit is now on GitHub.
+
+🎯 Extra Tips
+-------------
+# Combine add + commit (only works for tracked files):
+git commit -am "Quick update"
+
+# Check Git version (helpful for debugging):
+git --version
+
+# Undo last commit (if needed):
+git reset --soft HEAD~1
+
+==============================
+Saved by Louie for Python Study
+==============================
