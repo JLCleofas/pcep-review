@@ -16,3 +16,10 @@
 ## Things I Forgot / Need to Review:
 - Tables/Lists
 - syntax for lists
+
+## Monday 6-16-2025
+- Lists = [] ==> Ordered collection of items separated by commas.
+- Tuples = () == Ordered collection of items that are immutable.
+    - Accessing Lists and Tuples:
+    print(Lists[0]) or print(Tuples[0])
+- Sets = {} ==> Unordered collection of items.
